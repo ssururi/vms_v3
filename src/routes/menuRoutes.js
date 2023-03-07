@@ -12,7 +12,7 @@ const MenuRoutes = {
         {
             path: '/',
             element: <VisitorsPage />
-        },
+        }
     ]
 };
 

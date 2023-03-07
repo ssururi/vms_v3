@@ -17,7 +17,7 @@ const Layout = () => {
     const matchDownLG = useMediaQuery(theme.breakpoints.down('xl'));
     const dispatch = useDispatch();
 
-    const { drawerOpen } = useSelector((state) => state.menu);
+    const { drawerOpen } = useSelector((state) => state.global.menu);
 
     // drawer toggler
     const [open, setOpen] = useState(drawerOpen);

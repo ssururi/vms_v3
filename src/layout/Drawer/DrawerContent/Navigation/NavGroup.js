@@ -6,7 +6,7 @@ import { Box, List, Typography } from '@mui/material';
 import NavItem from './NavItem';
 
 const NavGroup = ({ item }) => {
-    const menu = useSelector((state) => state.menu);
+    const menu = useSelector((state) => state.global.menu);
     const { drawerOpen } = menu;
 
     const navCollapse = item.children?.map((menuItem) => {
